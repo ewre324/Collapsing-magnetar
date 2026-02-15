@@ -1,0 +1,21 @@
+body { margin: 0; overflow: hidden; background-color: #000; }
+canvas { display: block; }
+#controls {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+button:hover {
+    background-color: #555;
+}
